@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="img/logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Fonts de google -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    </style>
+
+</head>
+<body>
+    <a href="https://api.whatsapp.com/send?phone=999999999" class="btn-wtsp" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <main class="main">
+        <section class="contenedor-1" id="contenedor-1">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top "style="background-color: black;">
+                    <div class="container">
+                    <a href="#contenedor-1" class="navbar-brand"><span class="text-primary">DEXI</span>CA</a>
+                    <button class="navbar-toggler btn-primary" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarS"
+                    aria-controls="navbarS"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon d-block" id="navbarS"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarS">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item mx-3">
+                                <a href="#contenedor-1" class="nav-link">Inicio</a>
+                            </li>
+                            <div class="DesplegableProductos">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../Catalogo/index.html">Polos</a></li>
+                                        <li><a class="dropdown-item" href="#">Camisas</a></li>
+                                        <li><a class="dropdown-item" href="#">Poleras</a></li>
+                                    </ul>
+                                </li>
+                            </div> 
+                            <li class="nav-item mx-3">
+                                <a href="#contenedor-3" class="nav-link">Nosotros</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a href="#contenedor-4" class="nav-link">Contactanos</a>
+                            </li>
+                        </ul>
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                                <button class="btn btn-primary" type="submit">Buscar</button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="IconosNav">
+                        <div class="CarritoCompras">
+                            <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
+                        </div>
+                        <div class="IconoUser">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa-solid fa-user"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../register/index.html">Registrarse</a></li>
+                                    <li><a class="dropdown-item" href="#">Mis Notificaciones</a></li>
+                                    <li><a class="dropdown-item" href="#">Mis Pedidos</a></li>
+                                    <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+                                </ul>
+                            </li>
+                        </div> 
+                    </div>
+    
+                </nav>
+            </header>
+            <div class="card text-bg-dark">
+                <img src="Imagenes/dos.jpg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <h1 class="card-title">No es una forma de vestir, ni es moda, es un estilo de vida…</h1>
+                    <h2 class="card-text">Calidad y variedad, lo mejor que puedes encontrar</h2>
+                    <h3 class="card-text">#URBANMODE</h3>
+                    <a class="btn btn-primary btn-sm" href="#" role="button">Ver mas</a>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <section class="contenedor-2" id="contenedor-2">
+            <h2 class="contenedor-2__Titulo"> LO MAS VISTO </h2>
+            <div class="Contenedor__Padre">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" 
+                        aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-current="true"
+                        aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-current="true"
+                        aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" for="imagen1">
+                            <img src="Imagenes/CalaveraAzul.png" class="d-block w-100" alt="Imagen1">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Polo Calavera Azul Oversize</h5>
+                                    <button type="button" class="btn btn-primary">Ver Detalles</button>
+                                </div>
+                            </div>
+                        <div class="carousel-item" for="imagen2">
+                            <img src="Imagenes/Ejem1.png" class="d-block w-100" alt="imagen2">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Polo Melbourne Oversize</h5>
+                                    <button type="button" class="btn btn-light">Ver Detalles</button>
+                                </div>
+                        </div>
+                        <div class="carousel-item " for="imagen3">
+                            <img src="Imagenes/Ejem3.jpg" class="d-block w-100" alt="imagen3">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>Diseño SR Fantasma</h5>
+                                    <button type="button" class="btn btn-dark">Ver Detalles</button>
+                                </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section class="contenedor-3" id="contenedor-3">
+            <h3 class="contenedor-3__Titulo">
+                Acerca De Nosotros
+            </h3>
+            
+            <div class="Tarjetas">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card" style="width: 70%; height: 580px;">
+                            <img src="Imagenes/Serigrafia1.jpg" class="card-img-top" style="height: 300px;"   alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Proceso de Serigrafia</h5>
+                                <p class="card-text">Es la técnica de estampación textil más antigua y una de las más utilizadas, su durabilidad y sus increíbles resultados. ¡Nos encanta! Utilizamos materiales de primera para asegurar el mejor rendimiento.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 70%; height: 580px;">
+                            <img src="Imagenes/Motivacion.jpg" style="height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mision hacia nuestros clientes</h5>
+                                <p class="card-text">Nuestra misión es brindar una experiencia de compra en línea excepcional al ofrecer una amplia gama de ropa de alta calidad y última moda.Proporcionando productos que reflejen las últimas tendencias y estilos, y que satisfagan las necesidades y preferencias individuales de nuestros clientes. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 70%; height: 580px;">
+                            <img src="Imagenes/Seguridad.png"  style="height: 300px;" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Seguridad Maxima</h5>
+                                <p class="card-text">En Dexica, la satisfacción y la confianza de nuestros clientes son nuestra máxima prioridad. Nos comprometemos a brindarles una experiencia de compra segura y confiable en nuestra página web. Contamos con rigurosas medidas de seguridad en línea para proteger la privacidad y los datos de nuestros clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        
+
+
+
+
+
+
+
+
+
+        
+        
+        <section class="contenedor-4" id="contenedor-4">
+
+            <div class="container my-5">
+
+                <footer class="text-white text-center text-lg-start bg-primary">
+                <!-- Grid container -->
+                <div class="container p-4">
+                    <div class="row mt-4">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Acerca de Nosotros</h5>
+                        <p>
+                            Somos lo mejor en polos para caballero de todo tipo y tenemos la mejor experiencia y seguridad para tus compras
+                        </p>
+                        <p>
+                        <div class="mt-4">
+                        <!-- Facebook -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Dribbble -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg"href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <!-- Twitter -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg" href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                        <!-- Google + -->
+                        <a type="button" class="btn btn-floating btn-primary btn-lg" href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect"><i class="fab fa-linkedin"></i></a>
+                        <!-- Linkedin -->
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <ul class="fa-ul" style="margin-left: 1.65em;">
+                        <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">Av.Isabel La catolica con aviacion 1862</span>
+                        </li>
+                        <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">Dexica12.polos@gmail.com</span>
+                        </li>
+                        <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 73610258</span>
+                        </li>
+                        <li class="mb-3">
+                        <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 51 946195198</span>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Horario de Atención</h5>
+                    <table class="table text-center text-white">
+                        <tbody class="font-weight-normal">
+                            <tr>
+                                <td>Lunes - Jueves:</td>
+                                <td>9am - 8pm</td>
+                        </tr>
+                        <tr>
+                            <td>Viernes - Sabado:</td>
+                            <td>9am - 6pm</td>
+                        </tr>
+                        <tr>
+                            <td>Domingo:</td>
+                            <td>9am - 2pm</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+                </div>
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                    © 2023 Copyright:
+                </div>
+            </footer>
+            </div>
+
+
+
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
