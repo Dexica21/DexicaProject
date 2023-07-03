@@ -152,8 +152,34 @@ body{
 }
 
 .dropdown-toggle::after{
-    font-size: 20px;
+    font-size: 15px;
     color: white;
+}
+
+
+
+.btn-Finalizar{
+    margin-top: 20px;
+    width: 20%;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-check{
+    margin-left: 20px;
+
+}
+
+.modal-header h1{
+    color: black;
+}
+
+.modal-body p{
+    color: black;
 }
 
 
@@ -263,6 +289,17 @@ body{
         margin-right: 10px;
     }
 
+    .btn-Finalizar{
+        margin-top: 20px;
+        width: 40%;
+        padding: 7px;
+        border-radius: 20px;
+        background-color: #0066ff;
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+    
 }
 
 

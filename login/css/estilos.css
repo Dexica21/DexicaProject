@@ -26,13 +26,13 @@ body{
 }
 
 .img__form::before{
-   content: '';
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   height: 100px;
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
    /* background: linear-gradient(to right,rgba(126, 128, 129, 0.5), rgba(19, 64, 116, .5) ); */
 }
 
